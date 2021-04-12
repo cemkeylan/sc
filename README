@@ -1,10 +1,14 @@
 sc
 =======
 
-Simplistic hyper-minimal static portable C99 POSIX shell service manager in 
-POSIX compliant shell script in a single minimal line of code. It is so 
-simple, that it can be run under all POSIX systems. It is so static that 
-this readme is part of this hyper-minimal service manager.
+For years I have strived to make the best and smallest service manager I 
+could do. I had written sysmgr[1], a POSIX shell service manager. It wasn't 
+enough. I finally did it, Reddit. This is maximum simplicity, sc.
+
+`sc` is a simplistic hyper-minimal static portable C99 POSIX shell service 
+manager in POSIX compliant shell script in a single minimal line of code. 
+It is so simple, that it can be run under all POSIX systems. It is so 
+static that this readme is part of this hyper-minimal service manager.
 
 Dependencies
 ============
@@ -14,6 +18,12 @@ Dependencies
 
 The `Makefile` is built-in for maximum minimalistic static-link-like 
 portability coolness!
+
+Unit Tests
+==========
+
+The unit tests are also built-in for this hyper-minimal service manager, 
+just run `sc --test`.
 
 Install
 =======
