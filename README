@@ -2,7 +2,7 @@ sc
 =======
 
 For years I have strived to make the best and smallest service manager I 
-could do. I had written sysmgr[1], a POSIX shell service manager. It wasn't 
+could do. I had written sysmgr, a POSIX shell service manager. It wasn't 
 enough. I finally did it, Reddit. This is maximum simplicity, sc.
 
 `sc` is a simplistic hyper-minimal static portable C99 POSIX shell service 
@@ -42,9 +42,11 @@ up for your lack of skills.
 
 If you are making your code unreadable for the sake of SLOC, you are also 
 in the wrong. You may not be calling a huge library, but you are giving 
-others (and yourself) a hard time reading your code. You should always make 
+others (and yourself) a hard time reading your code. I have seen 
+programmers introduce horrible bugs to perfectly running software just 
+because of their obsession with SLOC, and byte size. You should always make 
 sure your code is readable and well commented instead of garbling it up to 
 brag about your code size. Just take a look at this mess of a code, it 
-really is a one-line shell script containing this README file, and it is an 
-absolute pain to read. Don't be like this, be smart.
+really is a one-line shell script containing this README file of 52 lines, 
+and it is an absolute pain to read. Don't be like this, be smart.
 
